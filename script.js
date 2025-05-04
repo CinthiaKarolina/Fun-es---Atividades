@@ -32,7 +32,7 @@ console.log(mensagemBoasVindas(nome, cargo))
 */
 
 
-
+/*
 function multiplicacao (numero1, numero2) {
     return numero1 * numero2
 }
@@ -44,3 +44,15 @@ function multiplicacao (numero1, numero2) {
     console.log(multiplicacao1)
     console.log(multiplicacao2)
     console.log(multiplicacao3)
+*/
+
+
+
+function parOuImpar (numero) {
+    if (numero % 2 === 0) {
+        return "PAR"
+    } else {
+    return "ÍMPAR"
+    }
+}
+console.log(parOuImpar (0))
