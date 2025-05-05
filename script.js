@@ -32,6 +32,7 @@ console.log(mensagemBoasVindas(nome, cargo))
 */
 
 
+
 /*
 function multiplicacao (numero1, numero2) {
     return numero1 * numero2
@@ -48,6 +49,7 @@ function multiplicacao (numero1, numero2) {
 
 
 
+/*
 function parOuImpar (numero) {
     if (numero % 2 === 0) {
         return "PAR"
@@ -56,3 +58,20 @@ function parOuImpar (numero) {
     }
 }
 console.log(parOuImpar (0))
+*/
+
+
+
+let numero = 10
+
+const button = document.
+querySelector("button")
+
+
+
+button.addEventListener("click", () => {
+    numero ++
+    console.log(numero)
+})
+
+console.log(numero)
