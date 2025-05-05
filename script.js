@@ -62,6 +62,7 @@ console.log(parOuImpar (0))
 
 
 
+/*
 let numero = 10
 
 const button = document.
@@ -75,3 +76,11 @@ button.addEventListener("click", () => {
 })
 
 console.log(numero)
+*/
+
+
+/*
+let somar = (valor1, valor2) => valor1 + valor2
+
+console.log(somar(10, 70))
+*/
